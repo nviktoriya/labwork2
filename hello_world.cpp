@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
-int
-main()
+int main() 
 {
   std::string name; //введение строковой переменной name
   std::cout << "Enter your name: ";
