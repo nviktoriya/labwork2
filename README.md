@@ -66,7 +66,7 @@ $ git checkout -b patch1
 ```
 2. Внесите изменения в ветке patch1 по исправлению кода и избавления от using namespace std;.
 
-Редактирую файлhello_world.cpp:
+Редактирую файл hello_world.cpp:
 ``` sh
 $ nano hello_world.cpp
 ```
