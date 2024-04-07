@@ -7,4 +7,4 @@ int main()
   std::cin >> name; //ввод с клавиатуры имени
   std::cout << "Hello World from " << name << '!' << endl;
   return 0;
-}
+}//новый комментарий
