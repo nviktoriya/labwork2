@@ -21,6 +21,7 @@ $ git remote add origin https://github.com/nviktoriya/labwork2
 $ git pull origin master
 ```
 3. Создайте файл hello_world.cpp в локальной копии репозитория (который должен был появиться на шаге 2). Реализуйте программу Hello world на языке C++ используя плохой стиль кода. Например, после заголовочных файлов вставьте строку using namespace std;.
+
 Создаю файл hello_world.cpp:
 ``` sh
 $ touch hello_world.cpp
@@ -45,6 +46,7 @@ $ git add hello_world.cpp
 $ git commit -m "added hello_world.cpp"
 ```
 6. Изменитьте исходный код так, чтобы программа через стандартный поток ввода запрашивалось имя пользователя. А в стандартный поток вывода печаталось сообщение Hello world from @name, где @name имя пользователя.
+
 Редактирую файл hello_world.cpp:
 ``` sh
 $ nano hello_world.cpp
@@ -63,6 +65,7 @@ $ git push origin master
 $ git checkout -b patch1
 ```
 2. Внесите изменения в ветке patch1 по исправлению кода и избавления от using namespace std;.
+
 Редактирую файлhello_world.cpp:
 ``` sh
 $ nano hello_world.cpp
@@ -75,6 +78,7 @@ $ git commit -am "removed using namespace std"
 $ git push -u origin HEAD
 ```
 6. В локальной копии в ветке patch1 добавьте в исходный код комментарии.
+
 Редактирую файл hello_world.cpp:
 ``` sh
 $ nano hello_world.cpp
